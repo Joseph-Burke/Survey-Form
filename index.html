@@ -7,7 +7,56 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1>Testing, testing</h1>
+        <main>
+            <h1 id="title">This is the title.</h1>
+            <p id="description">This is a short explanation</p>
+            <form id="survey-form">
+                <label id="name-label">
+                    <input id="name" type="text" placeholder="Matt Smith">
+                </label>
+                <label id="email-label">
+                    <input id="email" type="email" placeholder="matt_smith@gmail.com">
+                </label>
+                <label id="number-label">
+                    <input id="number" type="number" min="0" max="99" placeholder="99">
+                </label>
+                <select id="dropdown">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                </select>
+                <label>
+                    Radio Button 1:
+                    <input type="radio" name="radio" value="button1">
+                </label>
+                <label>
+                    Radio Button 2:
+                    <input type="radio" name="radio" value="button2">
+                </label>
+                <label>
+                    Radio Button 3:
+                    <input type="radio" name="radio" value="button3">
+                </label>
+                <label>
+                    Checkbox 1:
+                    <input type="checkbox" name="checkbox" value="checkbox1">
+                </label>
+                <label>
+                    Checkbox 2:
+                    <input type="checkbox" name="checkbox" value="checkbox1">
+                </label>
+                <label>
+                    Checkbox 3:
+                    <input type="checkbox" name="checkbox" value="checkbox1">
+                </label>
+
+                <textarea>
+                    Write any additional comments here!
+                </textarea>
+
+                <button id="submit" value="submit"></button>
+            </form>
+        </main>
         
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
