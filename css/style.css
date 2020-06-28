@@ -5,6 +5,9 @@
 
 html {
     font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("assets/images/honest-joe-subliminal-messaging.jpg");
+    background-repeat: repeat;
 }
 
 body {
@@ -13,21 +16,67 @@ body {
     align-items: center;
 }
 
+/* Header */
+
 header {
-    padding: 20px 0px;
+    padding: 20px 20px;
     border-bottom: 0.5px solid #555;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("assets/images/honest-joe-subliminal-messaging.jpg");
+    background-repeat: repeat;
 }
 
 #title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 5rem;
+    font-weight: bold;
+    width: 100%;
+    /* background-color: green; */
+    background-image: url("assets/images/honest-joe-subliminal-messaging.jpg");
+    background-size: cover;
 }
+
+.introductory-text {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.introductory-text-1 {
+    font-size: 3rem;
+    width: 80%;
+}
+
+.introductory-text-2 {
+    font-size: 2.5rem;
+    width: 70%;
+}
+
+.introductory-text-3 {
+    font-size: 2rem;
+    width: 45%;
+}
+
+.introductory-text-4 {
+    font-size: 1.45rem;
+    width: 50%;
+}
+
+.introductory-text-5 {
+    font-size: 1.2rem;
+    width: 40%;
+}
+
+/* Main section */
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 100%;
 }
 
 form {
@@ -36,6 +85,8 @@ form {
     justify-content: flex-start;
     margin: 0 auto;
     padding: 25px 0px;
+    width: 60%;
+    background-image: url("assets/images/honest-joe-subliminal-messaging.jpg");
 }
 
 form fieldset {
@@ -44,10 +95,3 @@ form fieldset {
     align-items: center;
     flex: 1;
 }
-
-.introductory-text {
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-}
-
